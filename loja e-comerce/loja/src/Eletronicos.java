@@ -1,4 +1,4 @@
-public class Eletronicos {
+public class Eletronicos extends Produtos {
     private String marca;
     private String modelo;
 
@@ -18,10 +18,13 @@ public class Eletronicos {
         this.modelo = modelo;
     }
 
-
-    public Eletronicos(String marca, String modelo) {
+    public Eletronicos(String marca, String modelo, String nome, double preco) {
         this.marca = marca;
         this.modelo = modelo;
+    }
+
+    public String puxaEletronico() {
+        return ("eletronico: " + nome + "marca: " + marca + "modelo: " + "preço" + preco);
     }
 
 }

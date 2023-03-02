@@ -1,5 +1,6 @@
 public class Produtos {
-    private String nome;
+    protected String nome;
+    protected double preco;
     public String getNome() {
         return nome;
     }
@@ -12,7 +13,7 @@ public class Produtos {
     public void setPreco(double preco) {
         this.preco = preco;
     }
-    private double preco;
+    
 
     
 }
