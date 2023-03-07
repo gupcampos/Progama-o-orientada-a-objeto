@@ -1,4 +1,6 @@
-public class Eletronicos extends Produtos {
+import java.math.BigDecimal;
+
+public class Eletronico extends Produtos {
     private String marca;
     private String modelo;
 
@@ -18,7 +20,7 @@ public class Eletronicos extends Produtos {
         this.modelo = modelo;
     }
 
-    public Eletronicos(String marca, String modelo, String nome, double preco) {
+    public Eletronico(String marca, String modelo, String nome, BigDecimal preco) {
         this.marca = marca;
         this.modelo = modelo;
     }

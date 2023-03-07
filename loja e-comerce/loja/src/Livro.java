@@ -1,7 +1,9 @@
-public class Livros extends Produtos {
+import java.math.BigDecimal;
+
+public class Livro extends Produtos {
     private String autor;
 
-    public Livros(String autor, double preco, String nome) {
+    public Livro(String autor, BigDecimal preco, String nome) {
         this.autor = autor;
     }
 
