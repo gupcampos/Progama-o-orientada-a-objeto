@@ -11,5 +11,9 @@ public class App {
         var presidente = new Presidente("bolsonaro", 13, new BigDecimal(2222222), new BigDecimal(171717));
         System.out.println(presidente.calcSalario());
 
+        var folhaDePagamento = new FolhaDePagamento();
+        folhaDePagamento.registrar(presidente);
+        folhaDePagamento.registrar(engenheiro);
+        System.out.println(folhaDePagamento.getTotalDaFolhaDePagamento());
     }
 }
