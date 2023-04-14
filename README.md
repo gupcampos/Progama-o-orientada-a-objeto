@@ -1,7 +1,2 @@
 # Progama-o-orientada-a-objeto
-
-Projeto de aula de poo
-
-## Projetos
-
--jogo
+Repositório dedicado aos projetos de POO desenvovildos em aula
